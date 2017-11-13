@@ -22,5 +22,5 @@ function array_avg_callable(array $items, callable $func)
         throw new DivisionByZeroError();
     }
 
-    return $sum;
+    return $sum / $count;
 }
