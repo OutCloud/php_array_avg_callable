@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "73011bb8cc16dee53764ad933f5378c0",
+    "packages": [
+        {
+            "name": "outcloud/php-core-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutCloud/outcloud-core.git",
+                "reference": "012624a47059c01aab0cf8a67264541d759f1667"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutCloud/outcloud-core/zipball/012624a47059c01aab0cf8a67264541d759f1667",
+                "reference": "012624a47059c01aab0cf8a67264541d759f1667",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OutCloud\\": "./src"
+                },
+                "files": [
+                    "/src/php_array_avg_callable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grzegorz Lieske",
+                    "email": "grzesiu.lieske@gmail.com"
+                }
+            ],
+            "description": "shared library for outcloud scripts",
+            "time": "2017-11-13T17:49:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "outcloud/php-core-lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

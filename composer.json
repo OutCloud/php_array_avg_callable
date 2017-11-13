@@ -1,0 +1,24 @@
+{
+  "name": "outcloud/php-array-avg-callable",
+  "description": "Calculates average of elements of array given by callable function",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grzegorz Lieske",
+      "email": "grzesiu.lieske@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "outcloud/php-core-lib": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "OutCloud\\": "./src"
+    },
+    "files": [
+      "/src/php_array_avg_callable.php"
+    ]
+  }
+}
