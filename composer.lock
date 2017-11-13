@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "73011bb8cc16dee53764ad933f5378c0",
+    "content-hash": "aafdb92689d1bd85aae91ae042cd60c1",
     "packages": [
         {
             "name": "outcloud/php-core-lib",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OutCloud/outcloud-core.git",
@@ -49,9 +49,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "outcloud/php-core-lib": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

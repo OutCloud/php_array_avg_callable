@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "outcloud/php-core-lib": "dev-master"
+    "outcloud/php-core-lib": "^1.0"
   },
   "autoload": {
     "psr-4": {
